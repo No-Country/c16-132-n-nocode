@@ -1,7 +1,7 @@
 <!--INTRODUCCIÓN A LA APLICACIÓN-->
 <div align="center" >
   <a>
-<img width="50%"  src="img/cursos.jpg" alt=visual introductoria >
+<img width="50%"  src="https://github.com/No-Country/c16-132-n-nocode/blob/main/cursos.jpg" alt=visual introductoria >
 </a>
 </div>
 
