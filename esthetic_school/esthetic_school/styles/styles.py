@@ -16,7 +16,7 @@ class Size(Enum):
     VERY_BIG = "4em"
 
 BASE_STYLE = {
-    "color": TextColor.ACCENT.value,
+    "color": TextColor.BLACK.value,
     "background": Color.PRIMARY.value,
 }
 
@@ -36,7 +36,7 @@ LINK_STYLE =  {
 BUTTON_STYLE = {
     "background": Color.PRIMARY.value,
     "margin_bottom": Size.DEFAULT.value,
-    "height": Size.BUTTON.value,
+    #"height": Size.BUTTON.value,
     "color": f"{TextColor.BLACK.value} !important",
     "cursor":"pointer",
     "_hover": {

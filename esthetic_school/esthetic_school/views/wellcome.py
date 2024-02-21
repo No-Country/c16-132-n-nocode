@@ -10,31 +10,37 @@ from esthetic_school.styles.styles import Size, BUTTON_STYLE
 
 def wellcome() -> rx.Component:
     return rx.box(
-        rx.center(
-            rx.vstack(
+        rx.flex(
+            rx.card(
                 rx.heading(
                     "Bienvenidos a", 
-                    font_size=Size.MEDIUM.value,
-                    padding_bottom=Size.SMALL.value
+                    size="8",
+                    padding_bottom=Size.SMALL.value,
+                    align="center"
                 ),
                 rx.image(
                     src="logo_grande.png",
                     alt="Logo de la aplicación el cual incluye una flor y el nombre Esthetic School",
                     width="20em",
-                    heigth="30em"
+                    heigth="30em",
+                    margin_left="25%"
                 ),
-                rx.text("Desarrolla tu destreza en estética con nuestra app de cursos especializados."),
-                #seguramente el btn va a ser un link, ya que me debe llevar a los listados de los cursos
+                rx.text("Desarrolla tu destreza en estética con nuestra app de cursos especializados.",
+                        size="5"
+                        ),
                 rx.link(
                     rx.button(
                         "Continuar",
-                        style=BUTTON_STYLE
+                        style=BUTTON_STYLE,
                     ),
-                    href=Route.COURSES
-                )
+                    href=Route.COURSES,
+                    margin_left="45%"
+                ),
+                margin_top="25%",
             ),
-            padding_top="50%",
             width="100%",
-            height="80%"   
-        )
+            direction="column",
+            justify="between",
+        ),
+        bg="red",
     )
