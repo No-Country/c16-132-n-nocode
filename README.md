@@ -1,19 +1,19 @@
 <!--INTRODUCCIÓN A LA APLICACIÓN-->
 <div align="center" >
   <a>
-<img width="50%"  src="https://github.com/No-Country/c16-132-n-nocode/blob/main/cursos.jpg" alt=visual introductoria >
+<img width="50%"  src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/logo%20NC%201%20def.png" alt=visual introductoria >
 </a>
 </div>
 
- <h3 align="center">"Como futuro alumno quiero una aplicación que me permita conocer en detalle los cursos que deseo aprender".</h3>
- 
- <h2 align="center">Aplicación para la búsqueda de cursos de estética de la academia .............</h2> 
+ <h3 align="center">"Quiero aprender cursos online de estética"</h3>
+
+ <h2 align="center">Hemos creado tu sitio en línea donde puedas estudiar cursos como masajes, maquillaje y más, llamado Esthetic School</h2> 
 
 
-> Grupo: c16-132-n-nocode
+
 
 **Proyecto para No Country Febrero 2024**
-
+> Grupo: c16-132-n-nocode
 <div>
   <p>Nuestra aplicación te permitirá navegar investigando qué cursos puedes aprender de la disciplina elegida por ti, podrás ver imágenes y videos de las clases, la información del programa, horarios de cursada, valor del curso. Además de mostrar la misión de la academia, preguntas comunes, empresas que sponsorean, medios de contacto. En consonancia con la información de cursos, los profesores tendrán un apartado para poder consultar tus dudas y subir diferentes podcasts. Por último, habrá un administrador que gestione toda la plataforma.</p>
 </div>
