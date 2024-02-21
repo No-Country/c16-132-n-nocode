@@ -15,6 +15,36 @@ class Size(Enum):
     BUTTON = "2.75em"
     VERY_BIG = "4em"
 
+BASE_STYLE = {
+    "color": TextColor.ACCENT.value,
+    "background": Color.PRIMARY.value,
+}
+
+HEADING_STYLE = {
+    "color": TextColor.ACCENT.value,
+    "font_size": "3em"
+}
+
+LINK_STYLE =  {
+    "text_decoration": "none",
+    "_hover": {
+        "color": TextColor.ACCENT.value,
+        "text_decoration": "none"
+    }
+}
+
+BUTTON_STYLE = {
+    "background": Color.PRIMARY.value,
+    "margin_bottom": Size.DEFAULT.value,
+    "height": Size.BUTTON.value,
+    "color": f"{TextColor.BLACK.value} !important",
+    "cursor":"pointer",
+    "_hover": {
+        "color": f"{TextColor.BLACK.value} !important",
+        "background": f"{Color.TERTIARY.value} !important" 
+    }
+}
+
 
 max_width_style = dict(
     align_items="start",
