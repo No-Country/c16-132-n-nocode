@@ -7,15 +7,17 @@
 
  <h3 align="center">"Quiero aprender cursos online de estética"</h3>
 
- <h2 align="center">Hemos creado tu sitio en línea donde puedas estudiar cursos como masajes, maquillaje y más, llamado Esthetic School</h2> 
+ <h2 align="center">Puedes estudiar cursos en línea como masajes, maquillaje y más. </br> 
+ Un sitio creado por y para ti.</br>
+ </h2>
 
-
-
+</br>
+</br>
 
 **Proyecto para No Country Febrero 2024**
 > Grupo: c16-132-n-nocode
 <div>
-  <p>Nuestra aplicación te permitirá navegar investigando qué cursos puedes aprender de la disciplina elegida por ti, podrás ver imágenes y videos de las clases, la información del programa, horarios de cursada, valor del curso. Además de mostrar la misión de la academia, preguntas comunes, empresas que sponsorean, medios de contacto. En consonancia con la información de cursos, los profesores tendrán un apartado para poder consultar tus dudas y subir diferentes podcasts. Por último, habrá un administrador que gestione toda la plataforma.</p>
+  <p>Nuestro sitio permitirá navegar mostrando qué cursos se puede aprender de la disciplina elegida, se podrán ver imágenes y videos de las clases, la información de horarios de cursada, valor del curso, cuánto dura, de qué se trata. En consonancia con la información de cursos, los profesores tendrán un apartado para poder consultar dudas y subir diferentes podcasts. </p>
 </div>
 
 
