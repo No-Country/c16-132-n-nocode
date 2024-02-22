@@ -1,7 +1,9 @@
 import reflex as rx
 from esthetic_school.styles.colors import Color, TextColor
 from esthetic_school.routes import Route
-from esthetic_school.styles.styles import Size, BUTTON_STYLE
+#from esthetic_school.styles.styles import Size, BUTTON_STYLE
+from esthetic_school.components.common_button import common_button
+from esthetic_school.components.heading import heading
 
 @rx.page(
     title="Esthetic School - Bienvenida",
@@ -12,11 +14,9 @@ def wellcome() -> rx.Component:
     return rx.box(
         rx.flex(
             rx.card(
-                rx.heading(
-                    "Bienvenidos a", 
-                    size="8",
-                    padding_bottom=Size.SMALL.value,
-                    align="center"
+                heading(
+                    "Bienvenidos a",
+                    True
                 ),
                 rx.image(
                     src="logo_grande.png",
@@ -28,13 +28,10 @@ def wellcome() -> rx.Component:
                 rx.text("Desarrolla tu destreza en estética con nuestra app de cursos especializados.",
                         size="5"
                         ),
-                rx.link(
-                    rx.button(
-                        "Continuar",
-                        style=BUTTON_STYLE,
-                    ),
-                    href=Route.COURSES,
-                    margin_left="45%"
+                common_button(
+                    Route.COURSES,
+                    "Continuar",
+                    True
                 ),
                 margin_top="25%",
             ),

@@ -2,18 +2,17 @@ import reflex as rx
 from enum import Enum
 from .colors import Color, TextColor
 
-MAX_WIDTH = "1000px"
+MAX_WIDTH = "990px"
 FLEX_DIRECTION = ["column", "column", "column", "row", "row"]
 
 
 class Size(Enum):
-    ZERO = "0px !important"
-    SMALL = "0.5em"
-    MEDIUM = "0.8em"
-    DEFAULT = "1em"
-    BIG = "2em"
-    BUTTON = "2.75em"
-    VERY_BIG = "4em"
+    ZERO = "0"
+    SMALL = "2"
+    MEDIUM = "4"
+    DEFAULT = "6"
+    BIG = "8"
+
 
 BASE_STYLE = {
     "color": TextColor.BLACK.value,
