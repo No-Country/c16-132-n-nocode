@@ -5,17 +5,9 @@ from esthetic_school.views.wellcome import wellcome
 from esthetic_school.views.courses import courses
 
 
-class State(rx.State):
-    pass
-
-
 def index() -> rx.Component:
-    return rx.box(
-        rx.center(
-            rx.vstack(
-                wellcome()
-            )
-        )
+    return rx.center(
+        wellcome()
     )
 
 app = rx.App()

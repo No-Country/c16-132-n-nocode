@@ -13,6 +13,11 @@ class Size(Enum):
     DEFAULT = "6"
     BIG = "8"
 
+class Separation_size(Enum):
+    ZERO = "0"
+    SMALL = "2em"
+    MEDIUM = "4em"
+
 
 BASE_STYLE = {
     "color": TextColor.BLACK.value,

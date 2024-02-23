@@ -1,13 +1,27 @@
 import reflex as rx
 from esthetic_school.styles.colors import Color
 
+
 def navbar() -> rx.Component:
-    return rx.hstack(
-        rx.box(
-            rx.image(src="logo_mini.svg")
+    return rx.vstack(
+        rx.flex(
+            rx.link(
+                rx.image(
+                    src="favicon.ico",
+                    alt="logo beauty school",
+                    width="3em",
+                    height="3em",
+                    margin_x="2em",
+                )
+            ),
+            # rx.spacer(),
+            rx.text("Esthetic School", margin_x="2em"),
+            top="0",
+            bg="red",
+            width="100%",
+            height="4em",
+            justify="between",
+            align="center",
         ),
-        position="sticky",
-        bottom="0",
-        z_index="999",
-        bg=Color.PRIMARY.value
+        width="100%",
     )
