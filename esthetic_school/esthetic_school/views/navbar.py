@@ -1,5 +1,6 @@
 import reflex as rx
 from esthetic_school.styles.colors import Color
+from esthetic_school.routes import Route
 
 
 def navbar() -> rx.Component:
@@ -7,12 +8,13 @@ def navbar() -> rx.Component:
         rx.flex(
             rx.link(
                 rx.image(
-                    src="favicon.ico",
+                    src="/logo_icon.png",
                     alt="logo beauty school",
                     width="3em",
                     height="3em",
                     margin_x="2em",
-                )
+                ),
+                href=Route.INDEX
             ),
             # rx.spacer(),
             rx.text("Esthetic School", margin_x="2em"),

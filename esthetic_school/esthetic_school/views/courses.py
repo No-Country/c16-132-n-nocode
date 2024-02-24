@@ -19,49 +19,49 @@ def courses() -> rx.Component:
     return rx.center(
         rx.vstack(
             navbar(),
-            rx.section(
-                heading(
-                    "Curso1"
-                ),
-                rx.image(
-                    src="/curso1.png",
-                    alt="imagen del curso 1, de limpieza facial"
-                ),
-                rx.text("Descripción breve del curso 1"),
-                common_button(
-                    "url",
-                    "ver mas",
-                )
-            ),
-            rx.section(
-                heading(
-                    "Curso1"
-                ),
-                rx.image(
-                    src="/curso1.png",
-                    alt="imagen del curso 1, de limpieza facial"
-                ),
-                rx.text("Descripción breve del curso 1"),
-                common_button(
-                    "url",
-                    "ver mas",
-                )
-            ),
-            rx.section(
-                heading(
-                    "Curso1"
-                ),
-                rx.image(
-                    src="/curso1.png",
-                    alt="imagen del curso 1, de limpieza facial"
-                ),
-                rx.text("Descripción breve del curso 1"),
-                common_button(
-                    "url",
-                    "ver mas",
-                )
-            ),
             inferior_bar(),
+            rx.section(
+                heading(
+                    "Curso1"
+                ),
+                rx.image(
+                    src="/curso1.png",
+                    alt="imagen del curso 1, de limpieza facial"
+                ),
+                rx.text("Descripción breve del curso 1"),
+                common_button(
+                    "url",
+                    "ver mas",
+                )
+            ),
+            rx.section(
+                heading(
+                    "Curso1"
+                ),
+                rx.image(
+                    src="/curso1.png",
+                    alt="imagen del curso 1, de limpieza facial"
+                ),
+                rx.text("Descripción breve del curso 1"),
+                common_button(
+                    "url",
+                    "ver mas",
+                )
+            ),
+            rx.section(
+                heading(
+                    "Curso1"
+                ),
+                rx.image(
+                    src="/curso1.png",
+                    alt="imagen del curso 1, de limpieza facial"
+                ),
+                rx.text("Descripción breve del curso 1"),
+                common_button(
+                    "url",
+                    "ver mas",
+                )
+            ),
             bg="violet",
             width="100%",
             align="center",
