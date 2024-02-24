@@ -8,5 +8,6 @@ def pruebas() -> rx.Component:
         width="100%",
         height="100vh",
         align="center",
-        justify="center"
+        justify="center",
+        #bg="blue"
     )

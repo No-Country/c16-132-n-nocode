@@ -16,7 +16,7 @@ def inferior_bar() -> rx.Component:
             icon_button(
                 #Courses
                 "graduation-cap",
-                "url",
+                "/courses",
                 "",
                 True
             ),

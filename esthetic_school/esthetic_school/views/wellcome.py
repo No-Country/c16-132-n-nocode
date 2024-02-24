@@ -8,17 +8,17 @@ from esthetic_school.components.heading import heading
 from esthetic_school.styles.styles import Separation_size, Size
 
 
-@rx.page(title="Esthetic School - Bienvenida", image="simple_icon.png")
+@rx.page( route="wellcome", title="Esthetic School - Bienvenida", image="simple_icon.png")
 def wellcome() -> rx.Component:
     return rx.hstack(
         rx.flex(
             rx.vstack(
                 heading("Bienvenidos a", True),
                 rx.image(
-                    src="logo_grande.png",
+                    src="/logo_fondo.jpeg",
                     alt="Logo de la aplicación el cual incluye una flor y el nombre Esthetic School",
-                    width="20em",
-                    heigth="30em",
+                    width="15em",
+                    heigth="25em",
                 ),
                 rx.text(
                     "Desarrolla tu destreza en estética con nuestra app de cursos especializados.",
