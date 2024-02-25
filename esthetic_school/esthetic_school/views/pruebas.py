@@ -1,10 +1,10 @@
 import reflex as rx
 
-from esthetic_school.views.register import register
+from esthetic_school.views.login import login
 
 def pruebas() -> rx.Component:
     return rx.center(
-        register(),
+        login(),
         width="100%",
         height="100vh",
         align="center",

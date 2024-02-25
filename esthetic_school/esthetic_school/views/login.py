@@ -7,28 +7,19 @@ from esthetic_school.components.navbar import navbar
 from esthetic_school.components.inferior_bar import inferior_bar
 from esthetic_school.styles.colors import Color
 from esthetic_school.components.heading import heading
+from esthetic_school.routes import Route
 
 
-@rx.page(route=Route.REGISTER, title="Registro")
-def register() -> rx.Component:
+@rx.page(route=Route.LOGIN, title="Iniciar Sesion")
+def login() -> rx.Component:
     return rx.vstack(
         navbar(),
         rx.vstack(
             rx.vstack(
                 heading(
-                    "Registrarse"
+                    "Iniciar Sesion"
                 ),
                 rx.divider(),
-                rx.input(
-                    placeholder="Nombre/s",
-                    name="nombre",
-                    size="3"
-                ),
-                rx.input(
-                    placeholder="Apellido/s",
-                    name="apellido",
-                    size="3"
-                ),
                 rx.input(
                     placeholder="email@email.com",
                     name="email",
@@ -38,12 +29,6 @@ def register() -> rx.Component:
                 rx.input(
                     placeholder="Contraseña",
                     name="contrasña",
-                    size="3",
-                    type="password"
-                ),
-                rx.input(
-                    placeholder="Confirmar contraseña",
-                    name="confirmar_contraseña",
                     size="3",
                     type="password"
                 ),

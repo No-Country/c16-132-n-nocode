@@ -12,6 +12,7 @@ class Size(Enum):
     MEDIUM = "4"
     DEFAULT = "6"
     BIG = "8"
+    BUTTON = "9"
 
 class Separation_size(Enum):
     ZERO = "0"
@@ -39,13 +40,13 @@ LINK_STYLE =  {
 
 BUTTON_STYLE = {
     "background": Color.PRIMARY.value,
-    "margin_bottom": Size.DEFAULT.value,
-    #"height": Size.BUTTON.value,
-    "color": f"{TextColor.BLACK.value} !important",
+    #"margin_bottom": Size.DEFAULT.value,
+    "height": Size.BUTTON.value,
+    "color": f"{TextColor.WHITE.value} !important",
     "cursor":"pointer",
     "_hover": {
         "color": f"{TextColor.BLACK.value} !important",
-        "background": f"{Color.TERTIARY.value} !important" 
+        "background": f"{Color.SECONDARY.value} !important" 
     }
 }
 

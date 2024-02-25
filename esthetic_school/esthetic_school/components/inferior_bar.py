@@ -10,28 +10,28 @@ def inferior_bar() -> rx.Component:
                 #Profile
                 "circle-user",
                 Route.REGISTER,
-                "",
+                "Perfil",
                 True,
             ),
             icon_button(
                 #Courses
                 "graduation-cap",
                 "/courses",
-                "",
+                "Cursos",
                 True
             ),
             icon_button(
                 #Info
                 "info",
                 "url",
-                "",
+                "Info",
                 True
             ),
             icon_button(
                 #Back
                 "arrow-left",
                 "url",
-                "",
+                "Volver",
                 True,
             ),
             bg="red",
@@ -39,9 +39,9 @@ def inferior_bar() -> rx.Component:
             height="4em",
             justify="between",
             align="center",
-            bottom="0",
+            bottom="0px",
             spacing="8",
-            position="sticky"
+            position="fixed"
         ),
         width="100%"
     )
