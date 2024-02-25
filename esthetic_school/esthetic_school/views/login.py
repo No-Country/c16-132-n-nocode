@@ -4,7 +4,7 @@ from esthetic_school.components.common_button import common_button
 from esthetic_school.routes import Route
 from esthetic_school.styles.styles import Size
 from esthetic_school.components.navbar import navbar
-from esthetic_school.components.inferior_bar import inferior_bar
+#from esthetic_school.components.inferior_bar import inferior_bar
 from esthetic_school.styles.colors import Color
 from esthetic_school.components.heading import heading
 from esthetic_school.routes import Route
@@ -32,10 +32,9 @@ def login() -> rx.Component:
                     size="3",
                     type="password"
                 ),
-                rx.chakra.button(
-                    "Enviar",
-                    color=Color.TERTIARY.value,
-                    bg=Color.PRIMARY.value,
+                common_button(
+                    "url",
+                    "Enviar"
                 ),
                 align="center"
             ),

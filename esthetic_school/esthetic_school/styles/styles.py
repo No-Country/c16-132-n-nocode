@@ -18,6 +18,7 @@ class Separation_size(Enum):
     ZERO = "0"
     SMALL = "2em"
     MEDIUM = "4em"
+    BUTTON = "3em"
 
 
 BASE_STYLE = {
@@ -41,12 +42,12 @@ LINK_STYLE =  {
 BUTTON_STYLE = {
     "background": Color.PRIMARY.value,
     #"margin_bottom": Size.DEFAULT.value,
-    "height": Size.BUTTON.value,
+    "height": Separation_size.BUTTON.value,
     "color": f"{TextColor.WHITE.value} !important",
     "cursor":"pointer",
     "_hover": {
-        "color": f"{TextColor.BLACK.value} !important",
-        "background": f"{Color.SECONDARY.value} !important" 
+        "color": f"{Color.BLACK.value} !important",
+        "background": f"{Color.TERTIARY.value} !important" 
     }
 }
 

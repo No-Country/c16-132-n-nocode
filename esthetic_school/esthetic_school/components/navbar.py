@@ -21,7 +21,7 @@ def navbar() -> rx.Component:
                 icon_button(
                     # Profile
                     "circle-user",
-                    Route.REGISTER,
+                    Route.PROFILE,
                     "",
                 ),
                 icon_button(

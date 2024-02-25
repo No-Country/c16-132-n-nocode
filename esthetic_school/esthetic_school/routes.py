@@ -5,3 +5,4 @@ class Route():
     COURSES="/courses"
     REGISTER="/register"
     LOGIN="/login"
+    PROFILE="/profile"
