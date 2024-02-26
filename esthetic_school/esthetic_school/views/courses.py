@@ -30,7 +30,7 @@ def courses() -> rx.Component:
                 ),
                 rx.text("Descripción breve del curso 1"),
                 common_button(
-                    "url",
+                    Route.COURSE,
                     "ver mas",
                 ),
             ),

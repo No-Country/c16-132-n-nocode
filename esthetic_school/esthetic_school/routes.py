@@ -6,3 +6,5 @@ class Route():
     REGISTER="/register"
     LOGIN="/login"
     PROFILE="/profile"
+    PAYMENT="/payment"
+    COURSE="/course"

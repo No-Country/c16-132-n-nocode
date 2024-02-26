@@ -1,10 +1,10 @@
 import reflex as rx
 
-from esthetic_school.views.profile import profile
+from esthetic_school.views.course import course 
 
 def pruebas() -> rx.Component:
     return rx.center(
-        profile(),
+        course(),
         width="100%",
         height="100vh",
         align="center",

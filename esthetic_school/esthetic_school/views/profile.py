@@ -15,7 +15,7 @@ def profile() -> rx.Component:
         navbar(),
         rx.vstack(
             rx.vstack(
-                rx.avatar(color_scheme="pink", size="8"),
+                rx.chakra.avatar(color_scheme="pink", size="8"),
                 heading("Nombre", True),
                 heading("mail@mail.com"),
             ),
