@@ -6,7 +6,7 @@ from esthetic_school.components.navbar import navbar
 from esthetic_school.routes import Route
 
 
-@rx.page(route=Route.COURSE)
+@rx.page(route=Route.COURSE.value)
 def course() -> rx.Component:
     return rx.center(
         navbar(),
@@ -14,8 +14,9 @@ def course() -> rx.Component:
             rx.avatar(size="9"),
             heading("Curso 1", True),
             rx.text("Descripción del curso"),
-            common_button(Route.PAYMENT, "Ir a pagar"),
+            common_button(Route.PAYMENT.value, "Ir a pagar"),
             align="center",
-            justify="center"
+            justify="center",
+            margin_y="8em"
         )
     )

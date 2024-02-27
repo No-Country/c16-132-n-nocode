@@ -1,10 +1,11 @@
 from enum import Enum
 
-class Route():
+class Route(Enum):
     INDEX="/"
     COURSES="/courses"
     REGISTER="/register"
-    LOGIN="/login"
+    LOGIN="/iniciar"
     PROFILE="/profile"
-    PAYMENT="/payment"
+    PAYMENT="/pagos"
     COURSE="/course"
+    WELLCOME="/wellcome"

@@ -10,7 +10,7 @@ from esthetic_school.components.heading import heading
 from esthetic_school.routes import Route
 
 
-@rx.page(route=Route.LOGIN, title="Iniciar Sesion")
+@rx.page(route=Route.LOGIN.value, title="Iniciar Sesion")
 def login() -> rx.Component:
     return rx.vstack(
         navbar(),

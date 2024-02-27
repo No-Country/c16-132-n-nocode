@@ -24,7 +24,7 @@ def wellcome() -> rx.Component:
                     "Desarrolla tu destreza en estética con nuestra app de cursos especializados.",
                     size=Size.DEFAULT.value,
                 ),
-                common_button(Route.COURSES, "Continuar", True),
+                common_button(Route.COURSES.value, "Continuar", True),
                 margin_top="25%",
                 align="center",
                 spacing=Size.DEFAULT.value,
@@ -36,4 +36,5 @@ def wellcome() -> rx.Component:
         align_items="center",
         justify="center",
         margin_y=Separation_size.SMALL.value,
+        #bg=Color.PRIMARY.value,
     )

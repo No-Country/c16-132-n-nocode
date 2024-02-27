@@ -15,13 +15,13 @@ def navbar() -> rx.Component:
                     height="3em",
                     margin_x="2em",
                 ),
-                href="/wellcome",
+                href=Route.WELLCOME.value,
             ),
             rx.hstack(
                 icon_button(
                     # Profile
                     "circle-user",
-                    Route.PROFILE,
+                    Route.PROFILE.value,
                     "",
                 ),
                 icon_button(

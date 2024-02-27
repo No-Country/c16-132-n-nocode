@@ -6,11 +6,8 @@ from esthetic_school.components.heading import heading
 from esthetic_school.styles.styles import Size
 from esthetic_school.routes import Route
 
-@rx.page(
-        route=Route.PAYMENT,
-        title="Pagar"
-)
 
+@rx.page(route=Route.PAYMENT.value, title="Pagar")
 def payment() -> rx.Component:
     return rx.vstack(
         navbar(),

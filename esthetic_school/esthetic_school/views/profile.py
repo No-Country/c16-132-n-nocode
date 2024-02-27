@@ -6,7 +6,7 @@ from esthetic_school.components.navbar import navbar
 from esthetic_school.routes import Route
 
 @rx.page(
-        route=Route.PROFILE,
+        route=Route.PROFILE.value,
         title="Perfil"
 )
 
@@ -15,17 +15,18 @@ def profile() -> rx.Component:
         navbar(),
         rx.vstack(
             rx.vstack(
-                rx.chakra.avatar(color_scheme="pink", size="8"),
+                rx.chakra.avatar(color_scheme="pink", size="xl"),
                 heading("Nombre", True),
                 heading("mail@mail.com"),
+                align="center"
             ),
             rx.divider(width="25%"),
             rx.hstack(
                 common_button(
-                    Route.LOGIN,
+                    Route.LOGIN.value,
                     "Iniciar Sesion",
                 ),
-                common_button(Route.REGISTER, "Registrarse"),
+                common_button(Route.REGISTER.value, "Registrarse"),
             ),
             # bg='pink',
             width="50%",

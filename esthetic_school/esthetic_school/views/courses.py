@@ -9,7 +9,7 @@ from esthetic_school.components.common_button import common_button
 
 
 @rx.page(
-    route=Route.COURSES,
+    route=Route.COURSES.value,
     title="Esthetic School - Cursos",
     image="logo_mini.svg"
 )
@@ -30,7 +30,7 @@ def courses() -> rx.Component:
                 ),
                 rx.text("Descripción breve del curso 1"),
                 common_button(
-                    Route.COURSE,
+                    Route.COURSE.value,
                     "ver mas",
                 ),
             ),
