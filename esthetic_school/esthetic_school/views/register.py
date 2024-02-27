@@ -49,7 +49,7 @@ def register() -> rx.Component:
                 ),
                 common_button(
                     "url",
-                    "Enviar"
+                    "Registrarse"
                 ),
                 align="center"
             ),

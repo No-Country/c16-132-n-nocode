@@ -6,35 +6,70 @@ from esthetic_school.routes import Route
 from esthetic_school.components.common_button import common_button
 from esthetic_school.components.heading import heading
 from esthetic_school.styles.styles import Separation_size, Size
+from esthetic_school.components.navbar import navbar
+from esthetic_school.components.contact_form import contact_form
 
 
 @rx.page( route="wellcome", title="Esthetic School - Bienvenida", image="simple_icon.png")
 def wellcome() -> rx.Component:
-    return rx.hstack(
-        rx.flex(
+    return rx.center(
+        
+        rx.vstack(
+            navbar(),
             rx.vstack(
-                heading("Bienvenidos a", True),
+                heading(
+                    "Bienvenidos a",
+                    True
+                ),
                 rx.image(
-                    src="/logo_fondo.jpeg",
-                    alt="Logo de la aplicación el cual incluye una flor y el nombre Esthetic School",
-                    width="15em",
-                    heigth="25em",
+                    src="/logo_grande.png",
+                    alt="imagen del curso 1, de limpieza facial"
                 ),
                 rx.text(
                     "Desarrolla tu destreza en estética con nuestra app de cursos especializados.",
-                    size=Size.DEFAULT.value,
+                    size=Size.MEDIUM.value
                 ),
-                common_button(Route.COURSES.value, "Continuar", True),
-                margin_top="25%",
+                common_button(
+                    Route.COURSES.value,
+                    "Ver los cursos",
+                ),
                 align="center",
-                spacing=Size.DEFAULT.value,
+                spacing=Size.MEDIUM.value,
+                
             ),
-            direction="column",
+            rx.hstack(
+                rx.chakra.card(
+                    rx.chakra.card_body(
+                        "curso numero 1"
+                    ),
+                    header="Curso 1",
+                    size="lg",
+                    
+                ),
+                rx.chakra.card(
+                    rx.chakra.card_body(
+                        "curso numero 1"
+                    ),
+                    header="Curso 1",
+                    size="lg",
+                    
+                ),
+                rx.chakra.card(
+                    rx.chakra.card_body(
+                        "curso numero 1"
+                    ),
+                    header="Curso 1",
+                    size="lg",  
+                ),
+                margin_y=Separation_size.BIG.value
+            ),
+            contact_form(),
+            width="100%",
+            height="100vh",
+            align="center",
+            justify="center",
+            margin_y=Separation_size.BIG.value
         ),
-        # bg="red",
+        margin_y=Separation_size.MEDIUM.value,
         width="100%",
-        align_items="center",
-        justify="center",
-        margin_y=Separation_size.SMALL.value,
-        #bg=Color.PRIMARY.value,
     )

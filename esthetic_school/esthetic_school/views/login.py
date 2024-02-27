@@ -34,7 +34,7 @@ def login() -> rx.Component:
                 ),
                 common_button(
                     "url",
-                    "Enviar"
+                    "Iniciar Sesion"
                 ),
                 align="center"
             ),

@@ -19,6 +19,7 @@ class Separation_size(Enum):
     SMALL = "2em"
     MEDIUM = "4em"
     BUTTON = "3em"
+    BIG = "6em"
 
 
 BASE_STYLE = {
