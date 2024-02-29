@@ -25,8 +25,13 @@ def profile() -> rx.Component:
                 common_button(
                     Route.LOGIN.value,
                     "Iniciar Sesion",
+                    True,
+                    True
                 ),
-                common_button(Route.REGISTER.value, "Registrarse"),
+                common_button(
+                    Route.REGISTER.value, 
+                    "Registrarse"
+                ),
             ),
             # bg='pink',
             width="50%",

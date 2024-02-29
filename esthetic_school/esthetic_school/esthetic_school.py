@@ -9,7 +9,7 @@ from esthetic_school.views.pruebas import pruebas
 
 def index() -> rx.Component:
     return rx.center(
-        wellcome()
+        pruebas()
     )
 
 app = rx.App()

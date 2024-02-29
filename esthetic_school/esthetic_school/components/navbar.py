@@ -22,25 +22,25 @@ def navbar() -> rx.Component:
                     # Profile
                     "circle-user",
                     Route.PROFILE.value,
-                    "",
+                    "Perfil",
                 ),
                 icon_button(
                     # Courses
                     "graduation-cap",
                     "/courses",
-                    "",
+                    "Cursos",
                 ),
                 icon_button(
                     # Info
                     "info",
                     "url",
-                    "",
+                    "Información",
                 ),
                 icon_button(
                     # Back
                     "arrow-left",
                     "url",
-                    "",
+                    "Volver",
                 ),
             ),
             # rx.spacer(),
@@ -56,4 +56,5 @@ def navbar() -> rx.Component:
         align="start",
         justify="start",
         width="100%",
+        z_index="99999"
     )

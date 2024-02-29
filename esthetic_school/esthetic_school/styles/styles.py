@@ -52,6 +52,18 @@ BUTTON_STYLE = {
     }
 }
 
+BUTTON_COLOR_STYLE = {
+    "background": Color.TERTIARY.value,
+    #"margin_bottom": Size.DEFAULT.value,
+    "height": Separation_size.BUTTON.value,
+    "color": f"{TextColor.WHITE.value} !important",
+    "cursor":"pointer",
+    "_hover": {
+        "color": f"{Color.BLACK.value} !important",
+        "background": f"{Color.PRIMARY.value} !important" 
+    }
+}
+
 
 max_width_style = dict(
     align_items="start",
