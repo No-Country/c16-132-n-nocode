@@ -12,7 +12,7 @@ def load_courses_file():
 
 def course_information(course):
     return  course_card(
-        os.path.join('esthetic_school', 'assets', 'courses_img', f'{course["image"]}'),
+        f'/courses_img/{course["image"]}',
         f'{course["name"]}',
         f'{course["description"]}',
         'url'
@@ -36,16 +36,7 @@ def show_information() -> rx.Component:
         width="100%"
     )
 
-"""
-def course_component(course):
-    return rx.component(
-        rx.box(
-            rx.img(src=f"images/{course['image']}", width=100),
-            rx.p(course["name"]),
-            rx.p(course["description"]),
-        )
-    )
-"""
+
 
 
 

@@ -1,121 +1,141 @@
 [
     {
+        "id": 1,
         "name": "course1",
-        "image": "image1",
+        "image": "laminado_cejas1.jpg",
         "price": "10",
         "description": "description1"
     },
     {
+        "id": 2,
         "name": "course2",
-        "image": "image2",
+        "image": "laminado_cejas2.jpg",
         "price": "15",
         "description": "description2"
     },
     {
+        "id": 3,
         "name": "course3",
-        "image": "image3",
+        "image": "lashista1.jpg",
         "price": "20",
         "description": "description3"
     },
     {
+        "id": 4,
         "name": "course4",
-        "image": "image4",
+        "image": "lashista2.jpg",
         "price": "12",
         "description": "description4"
     },
     {
+        "id": 5,
         "name": "course5",
-        "image": "image5",
+        "image": "manos1.jpg",
         "price": "18",
         "description": "description5"
     },
     {
+        "id": 6,
         "name": "course6",
-        "image": "image6",
+        "image": "manos2.jpg",
         "price": "25",
         "description": "description6"
     },
     {
+        "id": 7,
         "name": "course7",
-        "image": "image7",
+        "image": "manos3.jpg",
         "price": "30",
         "description": "description7"
     },
     {
-        "name": "course8",
-        "image": "image8",
+        "id": 8,
+        "name": "Curso de Maquillaje Artístico - 1raa Parte",
+        "image": "maqui_artistico1.jpg",
         "price": "22",
         "description": "description8"
     },
     {
-        "name": "course9",
-        "image": "image9",
+        "id": 9,
+        "name": "Curso de Maquillaje Artístico - 2da Parte",
+        "image": "maqui_artistico2.jpg",
         "price": "28",
         "description": "description9"
     },
     {
-        "name": "course10",
-        "image": "image10",
+        "id": 10,
+        "name": "Curso de Maquillaje Social - 1ra Parte",
+        "image": "maqui_social1.jpg",
         "price": "35",
         "description": "description10"
     },
     {
-        "name": "course11",
-        "image": "image11",
+        "id": 11,
+        "name": "Curso de Maquillaje Social - 2da Parte",
+        "image": "maqui_social2.jpg",
         "price": "40",
         "description": "description11"
     },
     {
-        "name": "course12",
-        "image": "image12",
+        "id": 12,
+        "name": "Curso de Maquillaje Social - 3ra Parte",
+        "image": "maqui_social3.jpg",
         "price": "32",
         "description": "description12"
     },
     {
+        "id": 13,
         "name": "course13",
-        "image": "image13",
+        "image": "masajes_elementos1.jpg",
         "price": "38",
         "description": "description13"
     },
     {
+        "id": 14,
         "name": "course14",
-        "image": "image14",
+        "image": "masajes_elementos2.jpg",
         "price": "45",
         "description": "description14"
     },
     {
+        "id": 15,
         "name": "course15",
-        "image": "image15",
+        "image": "masajes_orientales1.jpg",
         "price": "42",
         "description": "description15"
     },
     {
+        "id": 16,
         "name": "course16",
-        "image": "image16",
+        "image": "masajes_orientales2.jpg",
         "price": "50",
         "description": "description16"
     },
     {
+        "id": 17,
         "name": "course17",
-        "image": "image17",
+        "image": "masajes_relajantes1.jpg",
         "price": "55",
         "description": "description17"
     },
     {
+        "id": 18,
         "name": "course18",
-        "image": "image18",
+        "image": "masajes_relajantes2.jpg",
         "price": "52",
         "description": "description18"
     },
     {
+        "id": 19,
         "name": "course19",
-        "image": "image19",
+        "image": "tecnicas_spa1.jpg",
         "price": "60",
         "description": "description19"
     },
     {
+        "id": 20,
         "name": "course20",
-        "image": "image20",
+        "image": "tecnicas_spa2.jpg",
         "price": "65",
         "description": "description20"
     }

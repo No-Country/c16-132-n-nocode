@@ -10,11 +10,12 @@ def course_card(
 ) -> rx.Component:
     return rx.card(
         rx.vstack(
-            rx.image(src=img, width=Separation_size.MEDIUM.value, heigth=Separation_size.MEDIUM.value),
-            heading(heading_text),
+            rx.image(src=img, width="4em", heigth="4em"),
+            rx.heading(heading_text, as_="h4", size="4", align="center"),
             rx.text(description),
             icon_button("eye", url, "Ver más"),
             align="center",
             justify="center",
+            spacing="2"
         ),
     )
