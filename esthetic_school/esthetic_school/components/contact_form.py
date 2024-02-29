@@ -7,7 +7,7 @@ def contact_form() -> rx.Component:
     return rx.center(
         rx.vstack(
             heading(
-                "¿Tenés dudas?¡Contactanos!",
+                "¿Querés saber más? ¡Contactanos!",
             ),
             rx.divider(),
             rx.hstack(
@@ -32,6 +32,7 @@ def contact_form() -> rx.Component:
                 "url",
                 "Enviar"
             ),
-            align="center"
+            align="center",
+            margin_y="4em"
         )
     )

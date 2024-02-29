@@ -47,8 +47,8 @@ BUTTON_STYLE = {
     "color": f"{TextColor.WHITE.value} !important",
     "cursor":"pointer",
     "_hover": {
-        "color": f"{Color.BLACK.value} !important",
-        "background": f"{Color.TERTIARY.value} !important" 
+        "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
+        "transition": "ease .5s"
     }
 }
 
@@ -59,11 +59,31 @@ BUTTON_COLOR_STYLE = {
     "color": f"{TextColor.WHITE.value} !important",
     "cursor":"pointer",
     "_hover": {
-        "color": f"{Color.BLACK.value} !important",
-        "background": f"{Color.PRIMARY.value} !important" 
+        "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
+        "transition": "ease .5s"
     }
 }
 
+GREEN_BUTTON = {
+    "background": Color.SECONDARY.value,
+    #"margin_bottom": Size.DEFAULT.value,
+    "height": Separation_size.BUTTON.value,
+    "color": f"{TextColor.WHITE.value} !important",
+    "cursor":"pointer",
+    "_hover": {
+        "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
+        "transition": "ease .5s"
+    }
+}
+
+
+
+CARD_STYLE = {
+    "_hover":{
+        "box_shadow": "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
+        "transition": "ease .5s"
+    }
+}
 
 max_width_style = dict(
     align_items="start",

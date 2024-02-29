@@ -37,39 +37,13 @@ def wellcome() -> rx.Component:
                 spacing=Size.MEDIUM.value,
                 
             ),
-            rx.hstack(
-                rx.chakra.card(
-                    rx.chakra.card_body(
-                        "curso numero 1"
-                    ),
-                    header="Curso 1",
-                    size="lg",
-                    
-                ),
-                rx.chakra.card(
-                    rx.chakra.card_body(
-                        "curso numero 1"
-                    ),
-                    header="Curso 1",
-                    size="lg",
-                    
-                ),
-                rx.chakra.card(
-                    rx.chakra.card_body(
-                        "curso numero 1"
-                    ),
-                    header="Curso 1",
-                    size="lg",  
-                ),
-                margin_y=Separation_size.BIG.value
-            ),
             contact_form(),
             width="100%",
             height="100vh",
             align="center",
             justify="center",
-            margin_y=Separation_size.BIG.value
+            margin_y=Separation_size.SMALL.value
         ),
-        margin_y=Separation_size.MEDIUM.value,
+        margin_y=Separation_size.SMALL.value,
         width="100%",
     )

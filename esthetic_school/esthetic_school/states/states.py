@@ -21,19 +21,22 @@ def course_information(course):
 def show_information() -> rx.Component:
     courses = load_courses_file()
     return rx.center(
-        rx.grid(
-            *[course_information(course) for course in courses],
-            columns="6",
-            rows="4",
-            spacing="4",
-            position="absolute",
-            top="6em",
-            
-        ),
-        
-        align="center",
-        justify="center",
-        width="100%"
+        rx.vstack(
+            rx.grid(
+                *[course_information(course) for course in courses],
+                columns="3",
+                spacing="4",
+                position="absolute",
+                top="2em",
+                left="12em",
+                margin_y="4em",
+                #width="100%"
+                
+            ),
+            align="center",
+            justify="center",
+            width="100%"
+        )
     )
 
 

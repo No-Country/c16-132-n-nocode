@@ -3,18 +3,22 @@ from esthetic_school.styles.colors import Color
 from esthetic_school.routes import Route
 from esthetic_school.components.icon_button import icon_button
 
-
-def navbar() -> rx.Component:
-    return rx.vstack(
-        rx.flex(
-            rx.link(
-                rx.image(
+"""
+ rx.image(
                     src="/logo_icon.png",
                     alt="logo beauty school",
                     width="3em",
                     height="3em",
                     margin_x="2em",
                 ),
+"""
+
+
+def navbar() -> rx.Component:
+    return rx.vstack(
+        rx.flex(
+            rx.link(
+                rx.avatar(src="/logo_icon.png", size="4", margin_x="2em", radius="full"),
                 href=Route.WELLCOME.value,
             ),
             rx.hstack(
@@ -44,7 +48,7 @@ def navbar() -> rx.Component:
                 ),
             ),
             # rx.spacer(),
-            #rx.text("Esthetic School", margin_x="2em"),
+            # rx.text("Esthetic School", margin_x="2em"),
             bg=Color.PRIMARY.value,
             width="100%",
             height="4em",
@@ -56,5 +60,5 @@ def navbar() -> rx.Component:
         align="start",
         justify="start",
         width="100%",
-        z_index="99999"
+        z_index="99999",
     )

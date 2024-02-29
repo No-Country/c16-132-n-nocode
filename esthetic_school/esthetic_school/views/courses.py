@@ -2,7 +2,7 @@ import reflex as rx
 from esthetic_school.routes import Route
 from esthetic_school.components.navbar import navbar
 from esthetic_school.components.heading import heading
-from esthetic_school.components.common_button import common_button
+from esthetic_school.styles.styles import Color
 from esthetic_school.states.states import show_information
 
 
@@ -11,11 +11,18 @@ from esthetic_school.states.states import show_information
 )
 def courses() -> rx.Component:
     return rx.center(
-        navbar(),
         rx.vstack(
-            show_information()
+            rx.vstack(
+                navbar(),
+                heading("Nuestros Cursos", True),
+                width="100%",
+                align="center",
+                #margin_y="2em"
+            ),
+            rx.divider(bg=Color.TERTIARY.value),
+            rx.vstack(show_information()),
+            width="60%"
         ),
-        bg="red",
         width="100%",
-        margin_y="10em",
+        margin_y="6em"
     )

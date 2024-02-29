@@ -8,8 +8,7 @@ class Color(Enum):
     TERTIARY = "#F6B662"  # orange
     WHITE = "#eeeee4"
     BLACK = "#000"
-
-
+    RED = "#FF1414"
 class TextColor(Enum):
     ACCENT = "#5471F8"
     BLACK = ("#000",)
