@@ -47,6 +47,7 @@ BUTTON_STYLE = {
     "color": f"{TextColor.WHITE.value} !important",
     "cursor":"pointer",
     "_hover": {
+        "background": Color.SECONDARY.value,
         "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
         "transition": "ease .5s"
     }
