@@ -31,13 +31,13 @@ def navbar() -> rx.Component:
                 icon_button(
                     # Courses
                     "graduation-cap",
-                    "/courses",
+                    Route.COURSES.value,
                     "Cursos",
                 ),
                 icon_button(
                     # Info
                     "info",
-                    "url",
+                    Route.TERMS_CONDITIONS.value,
                     "Información",
                 ),
                 icon_button(

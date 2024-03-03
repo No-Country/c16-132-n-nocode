@@ -7,8 +7,7 @@ from esthetic_school.styles import styles
 
 
 def course_card(
-    img: str, heading_text: str, description: str, url: str
-) -> rx.Component:
+    img: str, heading_text: str, description: str, url: str) -> rx.Component:
     return rx.card(
         rx.vstack(
             rx.avatar(

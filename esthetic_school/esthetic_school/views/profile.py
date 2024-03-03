@@ -23,13 +23,13 @@ def profile() -> rx.Component:
             rx.divider(width="25%"),
             rx.hstack(
                 common_button(
-                    Route.LOGIN.value,
+                    Route.LOGIN_ROUTE.value,
                     "Iniciar Sesion",
                     True,
                     True
                 ),
                 common_button(
-                    Route.REGISTER.value, 
+                    Route.REGISTER_ROUTE.value, 
                     "Registrarse"
                 ),
             ),
