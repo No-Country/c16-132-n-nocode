@@ -7,7 +7,7 @@ from esthetic_school.states.states import show_information
 
 
 @rx.page(
-    route=Route.COURSES.value, title="Esthetic School - Cursos", image="logo_mini.svg"
+    route="/courses", title="Cursos", image="logo_mini.svg"
 )
 def courses() -> rx.Component:
     return rx.center(

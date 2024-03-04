@@ -10,7 +10,7 @@ from esthetic_school.components.navbar import navbar
 from esthetic_school.components.contact_form import contact_form
 
 
-@rx.page( route="wellcome", title="Esthetic School - Bienvenida", image="simple_icon.png")
+@rx.page( route="/", title="Esthetic School - Bienvenida", image="simple_icon.png")
 def wellcome() -> rx.Component:
     return rx.center(
         

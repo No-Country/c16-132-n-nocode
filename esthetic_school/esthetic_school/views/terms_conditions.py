@@ -4,7 +4,7 @@ from esthetic_school.components.heading import heading
 from esthetic_school.components.navbar import navbar
 from esthetic_school.routes import Route
 
-@rx.page(route=Route.TERMS_CONDITIONS.value, title="Terminos y Condiciones")
+@rx.page(route="/tyc", title="Terminos y Condiciones")
 def terms_conditions() -> rx.Component:
     return rx.center(
         rx.vstack(

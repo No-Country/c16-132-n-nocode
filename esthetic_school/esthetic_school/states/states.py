@@ -16,7 +16,7 @@ def course_information(course):
             f'/courses_img/{course["image"]}',
             f'{course["name"]}',
             f'{course["description"]}',
-            f'{Route.COURSE_ROUTE.value}'
+            "/course"
     )
 
 def show_information() -> rx.Component:

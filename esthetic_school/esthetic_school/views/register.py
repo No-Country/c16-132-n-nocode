@@ -9,7 +9,7 @@ from esthetic_school.styles.colors import Color
 from esthetic_school.components.heading import heading
 
 
-@rx.page(route=Route.REGISTER_ROUTE.value, title="Registro")
+@rx.page(route="/register", title="Registro")
 def register() -> rx.Component:
     return rx.vstack(
         navbar(),

@@ -17,7 +17,7 @@ def course_card(
             ),
             rx.heading(heading_text, as_="h4", size="4", align="center"),
             rx.text(description),
-            icon_button("eye", url, "Ver más"),
+            icon_button("eye",url, "Ver más"),
             align="center",
             justify="center",
             spacing="4"

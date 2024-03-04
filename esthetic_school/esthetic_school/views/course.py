@@ -8,7 +8,7 @@ from esthetic_school.routes import Route
 from esthetic_school.states.states import course_information
 
 
-@rx.page(route=Route.COURSE_ROUTE.value)
+@rx.page(route="/course", title="Curso")
 
 def course() -> rx.Component:
     #course_id = CourseState.show_curse

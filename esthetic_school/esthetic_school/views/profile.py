@@ -6,7 +6,7 @@ from esthetic_school.components.navbar import navbar
 from esthetic_school.routes import Route
 
 @rx.page(
-        route=Route.PROFILE.value,
+        route="/profile",
         title="Perfil"
 )
 

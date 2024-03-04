@@ -25,19 +25,19 @@ def navbar() -> rx.Component:
                 icon_button(
                     # Profile
                     "circle-user",
-                    Route.PROFILE.value,
+                    "/profile",
                     "Perfil",
                 ),
                 icon_button(
                     # Courses
                     "graduation-cap",
-                    Route.COURSES.value,
+                    "/courses",
                     "Cursos",
                 ),
                 icon_button(
                     # Info
                     "info",
-                    Route.TERMS_CONDITIONS.value,
+                    "/tyc",
                     "Información",
                 ),
                 icon_button(

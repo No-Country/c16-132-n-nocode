@@ -9,8 +9,11 @@ from esthetic_school.styles.colors import Color
 from esthetic_school.components.heading import heading
 from esthetic_school.routes import Route
 
+def imprimir(texto: str):
+    print(texto)
 
-@rx.page(route=Route.LOGIN_ROUTE.value, title="Iniciar Sesion")
+
+@rx.page(route="/iniciar", title="Iniciar Sesion")
 def login() -> rx.Component:
     return rx.vstack(
         navbar(),
@@ -24,7 +27,7 @@ def login() -> rx.Component:
                     placeholder="email@email.com",
                     name="email",
                     size="3",
-                    type="email"
+                    type="email",
                 ),
                 rx.input(
                     placeholder="Contraseña",
@@ -34,10 +37,11 @@ def login() -> rx.Component:
                 ),
                 green_button(
                     "url",
-                    "Iniciar Sesion"
+                    "Iniciar Sesion",
                 ),
-                align="center"
+                align="center",
             ),
+            
             spacing=Size.BIG.value,
             #bg="violet",
             width="100%",
