@@ -16,12 +16,13 @@
   <ul>
   <li>navegar mirando qué cursos se pueden aprender de la disciplina de estética que tú elijas</li>
   <li>la información de horarios de cursada, valor del curso, cuánto dura, de qué se trata</li>
-  <li>ver imágenes y videos de las clases</li>
+  <li>ver imágenes de las clases</li>
   <li>tendrás un espacio para consultar tus dudas con los profesores cada día</li>
   <li>esto y ¡mucho más!</li>
   </ul>
-  <p>¡Accede a Esthetic School hoy mismo y lleva tus conocimientos al siguiente nivel! <br>
-    Nuestro sitio puede mejorar tus ingresos estudiando con tus tiempos desde el lugar que más te convenga.</p>
+  Nuestro sitio puede mejorar tus ingresos estudiando con tus tiempos desde el lugar que más te convenga.<br>
+  <p>Accede a Esthetic School hoy mismo y ¡lleva tus conocimientos al siguiente nivel! </p>
+    
 </div>
 
  <div align='center'>
@@ -62,14 +63,14 @@
   <ul>
   <li>Registro de usuarios y autenticación.</li>
   <li>Perfiles de usuario personalizables con información educativa.</li>
-  <li>Visualización de contenido, como videos, podcasts y artículos.</li>
-  <li>Búsqueda y filtrado de cursos y clases.</li>
-  <li>Mensajería y conexión entre usuarios y profesores.</li>
+  <li>Visualización de contenido.</li>
+  <li>Búsqueda y filtrado de cursos.</li>
+  <li>Mensajería entre usuarios y profesores.</li>
   </ul>
 
 <h4>Información en detalle de Research, Estructura, Wireframes y Diseño del MVP</h4>
  <div>
-  <a href="https://drive.google.com/file/d/1OvAUle9UPI5YRIulh4DgawzCgNH0VWsj/view?usp=sharing" target="_blank">
+  <a href="https://drive.google.com/file/d/1Jw1t8gPtzn9B2ZbsIO75U85oxpKdcWN1/view?usp=sharing" target="_blank">
  
  ![Static Badge](https://img.shields.io/badge/VER_PRESENTACI%C3%93N-blue)
 
@@ -192,7 +193,7 @@
 | <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20susana.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20franc.jpg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20eli.png" width=200>|
 |:-:|:-:|:-:|
 | **Susana Sandoval - QA**| **Franco Garcia - FRONT/BACK END**| **Elisa - UX y README DESIGNER** |
-| <a href="https://github.com/Susana-Sandoval"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/mariasusanasandoval/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/garciaFranco31"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/franco-garcia-carril-70a418223/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/elibelu"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/elilucero"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
+| <a href="https://github.com/Susana-Sandoval"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/mariasusanasandoval/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/garciaFranco31"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/franco-garcia-carril-70a418223/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.behance.net/elilucero"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/elilucero"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
 </div>
 
@@ -209,10 +210,11 @@
  En nuestro equipo fuimos conociéndonos y nos pusimos de acuerdo en utilizar la metodología **ágil y scrum**. 
  Dividimos las tareas en sprints:
 
- - En la semana cero hicimos dos votaciones creamos un MVP siendo del tipo EDTECH, rama estética.
- - En la semana uno fue preparación del producto realizando investigación de usuario, competencia, funcionalidades y su diseño en Figma. También preparación del repositorio en el Github de No Country. Nuestro cliente fue observando el proceso mediante una presentación.
+ - En la semana cero hicimos dos votaciones creando un MVP siendo del tipo EDTECH, rama estética.
+ - En la semana uno fue preparación del producto realizando investigación de usuario, competencia, funcionalidades y su diseño en Figma. También preparación del repositorio en el Github de No Country. Nuestro cliente fue observando el proceso mediante presentaciones.
  - En la semana dos se inició su diseño front end estático y realización del documento README en Github.
  - En la semana tres se inició la interacción de la página con el  usuario introduciendo tecnología back end. También se introducen las pruebas.
+ - En la semana cuatro gracias a las pruebas se fueron modificando algunas funcionalidades para lanzar el producto. También estuvimos preparándonos para el DEMO DAY.
 
 
 
