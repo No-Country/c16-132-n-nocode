@@ -26,7 +26,7 @@
 </div>
 
  <div align='center'>
-  <a href="https://youtu.be/OeNcyf8Lvv4" target="_blank">
+  <a href="https://youtu.be/oovyHu3oXOg" target="_blank">
  
  ![ver promocional](https://img.shields.io/badge/VER%20PROMOCIONAL-blue)
  
@@ -53,7 +53,7 @@
  > Grupo: c16-132-n-nocode
  > DEMO EN CONSTRUCCIÓN
 
-  <a href="https://youtu.be/OeNcyf8Lvv4" target="_blank">
+  <a href="https://youtu.be/cgO7K-OZBig" target="_blank">
  
  ![ver demo](https://img.shields.io/badge/VER%20DEMO-blue)
  
@@ -70,7 +70,7 @@
 
 <h4>Información en detalle de Research, Estructura, Wireframes y Diseño del MVP</h4>
  <div>
-  <a href="https://drive.google.com/file/d/1Jw1t8gPtzn9B2ZbsIO75U85oxpKdcWN1/view?usp=sharing" target="_blank">
+  <a href="https://drive.google.com/file/d/1L-9lVdnB8mQfb9oQgj23YFJVV9RRtGab/view?usp=sharing" target="_blank">
  
  ![Static Badge](https://img.shields.io/badge/VER_PRESENTACI%C3%93N-blue)
 
@@ -185,15 +185,21 @@
   <div>
     <h2>Nuestro equipo</h2>
 
-| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20ile.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20nico.jpeg" width=200>| 
+| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20ile.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20eli.png" width=200>| 
 |:-:|:-:|
-| **Ileana Nieto - UI DESIGNER**| **Nicolas Jaimes - QA**| 
-| <a href="https://github.com/IleanaNieto"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/ileana-nieto"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/NicolasJaimes14"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/jaimesnicolas/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/Kcireog"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/erick-santiago-rodriguez-reinoso-409379282/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
+| **Ileana Nieto - UI DESIGNER**| **Elisa - UX y README DESIGNER**| 
+| <a href="https://github.com/IleanaNieto"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/ileana-nieto"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.behance.net/elilucero"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/elilucero"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | 
 
-| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20susana.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20franc.jpg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20eli.png" width=200>|
+| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20susana.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20franc.jpg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20nico.jpeg" width=200>|
 |:-:|:-:|:-:|
-| **Susana Sandoval - QA**| **Franco Garcia - FRONT/BACK END**| **Elisa - UX y README DESIGNER** |
-| <a href="https://github.com/Susana-Sandoval"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/mariasusanasandoval/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/garciaFranco31"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/franco-garcia-carril-70a418223/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.behance.net/elilucero"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/elilucero"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
+| **Susana Sandoval - QA**| **Franco Garcia - FRONT/BACK END**| **Nicolas Jaimes - QA** |
+| <a href="https://github.com/Susana-Sandoval"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/mariasusanasandoval/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/garciaFranco31"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/franco-garcia-carril-70a418223/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/NicolasJaimes14"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/jaimesnicolas/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
+
+<a href="https://youtu.be/yMUKcttPtD4">
+
+![Video presentación de equipo](https://img.shields.io/badge/VIDEO_PRESENTACI%C3%93N_DE_EQUIPO-blue)
+
+</a>
 
 </div>
 
