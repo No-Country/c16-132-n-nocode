@@ -1,7 +1,8 @@
 import reflex as rx
 
 from esthetic_school.components.navbar import navbar
-from esthetic_school.components.common_button import common_button
+from esthetic_school.components.red_button import red_button
+from esthetic_school.components.green_button import green_button
 from esthetic_school.components.heading import heading
 from esthetic_school.styles.styles import Size
 from esthetic_school.routes import Route
@@ -15,39 +16,54 @@ def payment() -> rx.Component:
             rx.vstack(
                 heading("Pagar"),
                 rx.divider(),
-                rx.input(
-                    placeholder="Numero de tarjeta",
-                    name="credit_number",
-                    size="3",
-                    type="number",
+                rx.vstack(
+                    rx.input(
+                        placeholder="Numero de tarjeta",
+                        name="credit_number",
+                        size="3",
+                        type="number",
+                        required=True,
+                        width="30.5em"
+                    ),
+                    rx.hstack(
+                        rx.input(
+                            placeholder="Nombre del titular",
+                            name="card_owner_name",
+                            size="3",
+                            required=True,
+                            width="15em"
+                        ),
+                        rx.input(
+                            placeholder="Apellido del titular",
+                            name="card_owner_surname",
+                            size="3",
+                            required=True,
+                            width="15em"
+                        ),
+                    ),
+                    rx.hstack(
+                        rx.input(
+                            placeholder="Codigo de seguridad",
+                            name="security_code",
+                            size="3",
+                            type="password",
+                            required=True,
+                            width="15em",
+                        ),
+                        rx.input(
+                            placeholder="Fecha de vencimiento",
+                            name="due_date",
+                            size="3",
+                            type="date",
+                            required=True,
+                            width="15em",
+                        ),
+                    ),
                 ),
                 rx.hstack(
-                    rx.input(
-                        placeholder="Nombre del titular",
-                        name="card_owner_name",
-                        size="3",
-                    ),
-                    rx.input(
-                        placeholder="Apellido del titular",
-                        name="card_owner_surname",
-                        size="3",
-                    ),
+                    red_button("url","Cancelar"),
+                    green_button("url", "Pagar"),
                 ),
-                rx.hstack(
-                    rx.input(
-                        placeholder="Codigo de seguridad",
-                        name="security_code",
-                        size="3",
-                        type="password",
-                    ),
-                    rx.input(
-                        placeholder="Fecha de vencimiento",
-                        name="due_date",
-                        size="3",
-                        type="date",
-                    ),
-                ),
-                common_button("url", "Enviar"),
                 align="center",
             ),
             spacing=Size.BIG.value,

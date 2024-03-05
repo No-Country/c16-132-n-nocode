@@ -57,7 +57,7 @@ BUTTON_COLOR_STYLE = {
     "background": Color.TERTIARY.value,
     #"margin_bottom": Size.DEFAULT.value,
     "height": Separation_size.BUTTON.value,
-    "color": f"{TextColor.WHITE.value} !important",
+    "color": f"{TextColor.GREY.value} !important",
     "cursor":"pointer",
     "_hover": {
         "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
@@ -69,7 +69,7 @@ GREEN_BUTTON = {
     "background": Color.SECONDARY.value,
     #"margin_bottom": Size.DEFAULT.value,
     "height": Separation_size.BUTTON.value,
-    "color": f"{TextColor.WHITE.value} !important",
+    "color": f"{TextColor.GREY.value} !important",
     "cursor":"pointer",
     "_hover": {
         "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
@@ -77,6 +77,17 @@ GREEN_BUTTON = {
     }
 }
 
+RED_BUTTON = {
+    "background": Color.RED.value,
+    #"margin_bottom": Size.DEFAULT.value,
+    "height": Separation_size.BUTTON.value,
+    "color": f"{TextColor.GREY.value} !important",
+    "cursor":"pointer",
+    "_hover": {
+        "box-shadow": "rgb(38, 57, 77) 0px 20px 30px -10px",
+        "transition": "ease .5s"
+    }
+}
 
 
 CARD_STYLE = {

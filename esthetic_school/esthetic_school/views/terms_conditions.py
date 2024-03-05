@@ -76,10 +76,10 @@ def terms_conditions() -> rx.Component:
                     
                 ),
                 align="center",
-                margin_top="2em",
+                margin_top="6em",
                 height="80vh",
                 width="80%",
-                spacing="1"
+                spacing="1",
             ),
             align="center",
             justify="center",

@@ -7,6 +7,7 @@ from esthetic_school.components.navbar import navbar
 from esthetic_school.routes import Route
 from esthetic_school.states.states import course_information
 
+ruta_img = "/home/franco/Desktop/c16-132-n-nocode/esthetic_school/assets/courses_img/laminado_cejas1.jpg"
 
 @rx.page(route="/course", title="Curso")
 
@@ -17,10 +18,29 @@ def course() -> rx.Component:
     return rx.center(
         navbar(),
         rx.vstack(
-            rx.avatar(size="9"),
+            rx.avatar(
+                rx.image(
+                    src="/courses_img/laminado_cejas1.jpg"
+                ),
+                size="9"
+            ),
             heading("Nombre del curso", True),
-            rx.text("Precio: $15000"),
-            common_button(Route.PAYMENT.value, "Ir a pagar"),
+            rx.center(
+                rx.vstack(
+                    rx.text(
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vehicula sapien, vel malesuada quam tristique ac. Nullam consequat nibh nec libero varius, quis bibendum sem fermentum. Phasellus lobortis nisi nec nulla venenatis, ut posuere risus accumsan. Curabitur rutrum elit vel risus convallis, sed malesuada justo posuere.",
+                        size="4"
+                    ),
+                    rx.text.strong(
+                        "Precio: $15.000",
+                        size="4"
+                    ),
+                ),
+                align="center",
+                justify="center",
+                width="50%"
+            ),
+            common_button("/pagos", "Obtener el curso"),
             align="center",
             justify="center",
             margin_y="8em",

@@ -1,6 +1,7 @@
 import reflex as rx
 
 from esthetic_school.components.green_button import green_button
+from esthetic_school.components.red_button import red_button
 from esthetic_school.routes import Route
 from esthetic_school.styles.styles import Size
 from esthetic_school.components.navbar import navbar
@@ -35,9 +36,15 @@ def login() -> rx.Component:
                     size="3",
                     type="password"
                 ),
-                green_button(
-                    "url",
-                    "Iniciar Sesion",
+                rx.hstack(
+                    green_button(
+                        "url",
+                        "Iniciar Sesion",
+                    ),
+                    red_button(
+                        "url",
+                        "Cancelar"
+                    )
                 ),
                 align="center",
             ),

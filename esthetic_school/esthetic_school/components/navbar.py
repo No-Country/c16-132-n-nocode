@@ -3,23 +3,12 @@ from esthetic_school.styles.colors import Color
 from esthetic_school.routes import Route
 from esthetic_school.components.icon_button import icon_button
 
-"""
- rx.image(
-                    src="/logo_icon.png",
-                    alt="logo beauty school",
-                    width="3em",
-                    height="3em",
-                    margin_x="2em",
-                ),
-"""
-
-
 def navbar() -> rx.Component:
     return rx.vstack(
         rx.flex(
             rx.link(
                 rx.avatar(src="/logo_icon.png", size="4", margin_x="2em", radius="full"),
-                href=Route.WELLCOME.value,
+                href="/",
             ),
             rx.hstack(
                 icon_button(

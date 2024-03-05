@@ -5,7 +5,7 @@ from esthetic_school.styles import styles
 
 class RedButtonState(rx.State):
     def show(self) -> rx.Component:
-        print("Operación Cancelada")
+        #print("Operación Cancelada")
         return rx.window_alert("Operación cancelada")
 
 def red_button(url: str, text="", solid=False) -> rx.Component:

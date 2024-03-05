@@ -9,7 +9,10 @@ class Color(Enum):
     WHITE = "#eeeee4"
     BLACK = "#000"
     RED = "#FF1414"
+
 class TextColor(Enum):
     ACCENT = "#5471F8"
     BLACK = ("#000",)
     WHITE = "#eeeee4"
+    GREY = "#333745"
+
