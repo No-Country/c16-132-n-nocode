@@ -159,22 +159,21 @@
 
 
 
- <!--............................................QUÉ TAREAS PERMITE CADA TECNOLOGÍA....................................................-->
- <h2>Qué permite hacer en el sitio web cada tecnología</h2>
-
- EN CONSTRUCCIÓN
-
-
-
  <!--................................................INSTALACIÓN Y USO.......................................................-->
  <h2>Pasos para su instalación y uso</h2>
 
- EN CONSTRUCCIÓN
+<div>
+<a href="https://github.com/No-Country/c16-132-n-nocode/blob/main/instrucciones.md">
+
+![VER INFORMACIÓN](https://img.shields.io/badge/VER_INFORMACI%C3%93N-blue)
+
+</a>
+</div>
 
  <div>
   <a href="mailto:esportsmelg@gmail.com">
  
- ![Static Badge](https://img.shields.io/badge/INFORMAR_ERROR-red)
+ ![INFORMAR ERROR](https://img.shields.io/badge/INFORMAR_ERROR-red)
 
   </a>
  </div>
