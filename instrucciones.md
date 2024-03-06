@@ -21,3 +21,6 @@ https://docs.python.org/3/
     "ctrl + c" #sirve para parar el localhost
 ```
 
+# Link de la web
+
+También podés acceder a nuestra web ingresando en el siguiente link: https://web-reflex.reflex.run/
