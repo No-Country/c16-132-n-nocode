@@ -3,7 +3,7 @@
 
 Para poder ejecutar el proyecto dentro de un dispositivo, se debe tener instalado python (versión >= 3.8), luego utilizando el comando pip, se deben instalar las dependencias virtualenv y reflex de la siguiente forma:
 
-### Link para la instalación de Python 3
+### Link para la instalación de Python 3:
 https://docs.python.org/3/ 
 
 ### Instalación y uso de virtualenv
