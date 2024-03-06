@@ -1,7 +1,7 @@
-<!--...........................................INTRODUCCIÓN A LA APLICACIÓN...................................................-->
+<!--.......................................INTRODUCCIÓN A LA APLICACIÓN PARA PÚBLICO.........................................-->
 <div align="center" >
   <a>
-<img width="25%"  src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/logo_grande.png" alt=visual introductoria >
+<img width="25%"  src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/courses_img/logo%20NC%201%20def.png" alt=visual introductoria >
 </a>
 </div>
 
@@ -39,9 +39,9 @@
  <h2>Presentación del Sitio</h2>
  
 <div>
-<img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/mockups.png">
-<img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/mockups%20(1).png">
-<img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/mockups%20(2).png">
+<img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/NCimg/NC%20img/mockups.png">
+<img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/NCimg/NC%20img/mockups%20(1).png">
+<img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/NCimg/NC%20img/mockups%20(2).png">
 </div>
 
 
@@ -185,12 +185,12 @@
   <div>
     <h2>Nuestro equipo</h2>
 
-| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20ile.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20eli.png" width=200>| 
+| <img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/NCimg/NC%20img/a%20ile.jpeg" width=200>| <img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/NCimg/NC%20img/a%20eli.png" width=200>| 
 |:-:|:-:|
 | **Ileana Nieto - UI DESIGNER**| **Elisa - UX y README DESIGNER**| 
-| <a href="https://github.com/IleanaNieto"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/ileana-nieto"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.behance.net/elilucero"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/elilucero"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | 
+| <a href="https://www.behance.net/ileananieto"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/ileana-nieto"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.behance.net/elilucero"><img src="https://img.shields.io/badge/Behance-%2320232a.svg?style=for-the-badge&logo=Behance&logoColor=%%2361DAFB"/></a> <a href="https://www.linkedin.com/in/elilucero"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | 
 
-| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20susana.jpeg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20franc.jpg" width=200>| <img src="https://github.com/elibelu/c16-132-n-nocode/blob/main/img/a%20nico.jpeg" width=200>|
+| <img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/NCimg/NC%20img/a%20susana.jpeg" width=200>| <img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/courses_img/a%20franc.jpg" width=200>| <img src="https://github.com/No-Country/c16-132-n-nocode/blob/main/esthetic_school/assets/courses_img/a%20nico.jpeg" width=200>|
 |:-:|:-:|:-:|
 | **Susana Sandoval - QA**| **Franco Garcia - FRONT/BACK END**| **Nicolas Jaimes - QA** |
 | <a href="https://github.com/Susana-Sandoval"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/mariasusanasandoval/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/garciaFranco31"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/franco-garcia-carril-70a418223/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/NicolasJaimes14"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/jaimesnicolas/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
