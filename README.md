@@ -85,19 +85,19 @@
 
  <a href="https://app.optimalworkshop.com/optimalsort/hkzkaoav/2lmnjd31/shared-results/bne2t094hjrtjbm70phl35d8k7azqqw8#/t/results/overview" target="_blank">
  
- ![optimalworkshop](https://img.shields.io/badge/OptimalWorkshop-fdd604)
+ ![informe optimalworkshop](https://img.shields.io/badge/VER_INFORME_OPTIMAL_WORKSHOP-fdd604)
 
   </a>
 
  <a href="https://whimsical.com/mapa-del-sitio-RMVWqSwkWjwqNweHcyyAT1" target="_blank">
  
- ![whinsical](https://img.shields.io/badge/Whimsical-8313dd)
+ ![diseño whimsical](https://img.shields.io/badge/VER_DISE%C3%91O_WHIMSICAL-8313dd)
 
   </a>
 
  <a href="https://www.mentimeter.com/app/presentation/ale8fcgewbzpey74jan1zyxxefbhpv5p" target="_blank">
  
- ![mentimeter](https://img.shields.io/badge/Mentimeter-206cfd)
+ ![presentación mentimeter](https://img.shields.io/badge/VER_PRESENTACI%C3%93N_MENTIMETER-206cfd)
 
   </a>
  
@@ -106,7 +106,7 @@
 
  <a href="https://www.figma.com/file/EgokEPLBIN8zIKbIAjwmnk/Esthetic-School%2F-No-Country?type=design&node-id=121%3A181&mode=design&t=k22NNXE2GlK8vODs-1" target="_blank">
  
-  ![figma](https://img.shields.io/badge/Figma-%23F24E1E?logo=figma&logoColor=white)
+  ![diseño figma](https://img.shields.io/badge/VER_PRESENTACIÓN_FIGMA-%23F24E1E?logo=figma&logoColor=white)
 
   </a>
 
@@ -149,9 +149,15 @@
   
   <h4>Tecnologías usadas en QA</h4>
 
-   <a  href="https://www.testmonitor.com/" target="_blank">
+   <a  href="https://www.postman.com/blue-eclipse-566265/workspace/no-country/collection/32526974-0ceaeebf-d85b-41d2-9186-e4e1ea72926e" target="_blank">
 
-  ![testmonitor](https://img.shields.io/badge/TestMonitor-7fb11a)
+  ![análisis postman](https://img.shields.io/badge/VER_AN%C3%81LISIS_POSTMAN-fe6a33)
+
+  </a>
+
+  <a  href="https://drive.google.com/file/d/1ggLfdRjDWXCyUZaRQ4jJQozuD0jmvCi8/view?usp=sharing" target="_blank">
+
+  ![informe testmonitor](https://img.shields.io/badge/VER_INFORME_TEST_MONITOR-7fb11a)
 
   </a>
   
