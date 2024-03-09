@@ -51,9 +51,8 @@
  
  **Proyecto para No Country Febrero 2024**
  > Grupo: c16-132-n-nocode
- > DEMO EN CONSTRUCCIÓN
 
-  <a href="https://youtu.be/cgO7K-OZBig" target="_blank">
+  <a href="https://youtu.be/RttMNb2wxB8" target="_blank">
  
  ![ver demo](https://img.shields.io/badge/VER%20DEMO-blue)
  
